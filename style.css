@@ -1,0 +1,74 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+.row {
+ margin: 0px;
+ height: 50px;
+}
+
+
+
+.logo {
+height: 50px;
+width: 100px;
+}
+
+.logo-text {
+text-align: center;
+color: white;
+}
+
+.Title {
+  text-align: center;
+}
+  
+.placeholder-black {
+background-color: #000000;
+}
+
+.placeholder-grey {
+background-color: #d9d9d9c9;
+}
+
+.placeholder-grey2 {
+  background-color: #848484;
+}
+
+.placeholder-title {
+background-color: #588BA0;
+}
+
+.placeholder-lightblue {
+background-color: #E5FFFD;
+}
+
+.placeholder-darkblue {
+background-color: #67A6AA;
+}
+
+.placeholder-crimson {
+background-color: #D00000;
+}
+
+.page {
+font-size:x-large;
+color: red;
+font-weight: bold;
+}
+
+.header {
+text-align: center;
+color: aqua;
+}
+
+.header-box {
+margin: 5px;
+height: 35px;
+}
+
+.quote {
+font-weight: 500;
+font-size: larger;
+}
