@@ -1,32 +1,59 @@
-// let LogoButton = document.querySelector('logo');
-// let LogoNum = 1;
-// function LogoSwitch() {
-//     if (LogoNum == 1) {
-//         LogoButton.classList.remove("placeholder-black");
-//         LogoButton.classList.add("placeholder-darkblue");
-//         LogoNum = 2;
+// let logoButton = document.querySelectorAll('.logo');
+// let logoNum = 1;
+// function logoSwitch() {
+//     if (logoNum == 1) {
+//         logoButton.classList.remove("placeholder-black");
+//         logoButton.classList.add("placeholder-darkblue");
+//         logoNum = 2;
 //     }
-//     else if (LogoNum == 2) {
-//         LogoButton.classList.remove("placeholder-darkblue");
-//         LogoButton.classList.add("placeholder-lightblue");
-//         LogoNum = 3;
+//     else if (logoNum == 2) {
+//         logoButton.classList.remove("placeholder-darkblue");
+//         logoButton.classList.add("placeholder-lightblue");
+//         logoNum = 3;
 //     }
-//     else if (LogoNum == 3) {
-//         LogoButton.classList.remove("placeholder-lightblue");
-//         LogoButton.classList.add("placeholder-crimson");
-//         LogoNum = 4;
+//     else if (logoNum == 3) {
+//         logoButton.classList.remove("placeholder-lightblue");
+//         logoButton.classList.add("placeholder-crimson");
+//         logoNum = 4;
 //     }
-//     else if (LogoNum == 4) {
-//         LogoButton.classList.remove("placeholder-crimson");
-//         LogoButton.classList.add("placeholder-black");
-//         LogoNum = 1;
+//     else if (logoNum == 4) {
+//         logoButton.classList.remove("placeholder-crimson");
+//         logoButton.classList.add("placeholder-black");
+//         logoNum = 1;
 //     }
 // }
-// LogoButton.addEventListener('click', LogoSwitch);
+// LogoButton.addEventListener('click', logoSwitch);
 
-let QuoteButt = document.querySelector('quoteButton');
-function NewQuote() {
-    document.body.style.backgroundColor = `rgb(255, 0, 0)`;
+let quoteButt = document.querySelector('.quoteButton');
+let QuoteNum = 1;
+let actualQuote = document.querySelector('.quote');
+let actualQuote2 = document.querySelector('.quote-2');
+function newQuote() {
+    if (QuoteNum == 1) {
+        actualQuote.innerHTML = '“There is no difference between a delusion or a';
+        actualQuote2.innerHTML = 'dream until it becomes true”';
+        QuoteNum = 2;
+    }
+    else if (QuoteNum == 2) {
+        actualQuote.innerHTML = "Hello, second quote here";
+        actualQuote2.innerHTML = "";
+        QuoteNum = 3;
+    }
+    else if (QuoteNum == 3) {
+        actualQuote.innerHTML = "Alive and well, third quote";
+        actualQuote2.innerHTML = "";
+        QuoteNum = 4;
+    }
+    else if (QuoteNum == 4) {
+        actualQuote.innerHTML = "Can't expect me to come up with 4";
+        actualQuote2.innerHTML = "more, fourth quote";
+        QuoteNum = 5;
+    }
+    else if (QuoteNum == 5) {
+        actualQuote.innerHTML = "fifth quote here, ty for coming";
+        actualQuote2.innerHTML = "";
+        QuoteNum = 1;
+    }
 }
 
-QuoteButt.addEventListener('click', NewQuote);
+quoteButt.addEventListener('click', newQuote);
