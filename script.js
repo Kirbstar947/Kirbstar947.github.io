@@ -30,8 +30,8 @@ let actualQuote = document.querySelector('.quote');
 let actualQuote2 = document.querySelector('.quote-2');
 function newQuote() {
     if (QuoteNum == 1) {
-        actualQuote.innerHTML = '“There is no difference between a delusion or a';
-        actualQuote2.innerHTML = 'dream until it becomes true”';
+        actualQuote.innerHTML = '“There is no difference between a delusion or';
+        actualQuote2.innerHTML = 'a dream until it becomes true”';
         QuoteNum = 2;
     }
     else if (QuoteNum == 2) {

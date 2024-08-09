@@ -1,35 +1,58 @@
 html {
     height: 100%;
     width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* Ensures a readable and clean font */
+    color: #333; /* Default text color for readability */
+    background-color: #f4f4f4; /* Soft background color */
   }
-  
+
+/* formatting */
 .row {
- margin: 0px;
- height: 50px;
+  margin: 0px;
+  height: 50px;
 }
 
 
-
+/* logo stuff */
 .logo {
-height: 50px;
-width: 100px;
+  height: 50px;
+  width: 100px;
 }
 
 .logo-text {
-text-align: center;
-color: white;
+  text-align: center;
+  color: white;
 }
 
+/* Navbar */
+.navbarButton {
+  height: 40px;
+}
+
+.pads {
+  margin: 5px 0 5px;
+}
+
+.page {
+  font-size:x-large;
+  color: red;
+  font-weight: bold;
+}
+
+/* Title */
 .Title {
   text-align: center;
 }
-  
+
+/* background colors */
 .placeholder-black {
-background-color: #000000;
+  background-color: #000000;
 }
 
 .placeholder-grey {
-background-color: #d9d9d9c9;
+  background-color: #d9d9d9c9;
 }
 
 .placeholder-grey2 {
@@ -37,43 +60,47 @@ background-color: #d9d9d9c9;
 }
 
 .placeholder-title {
-background-color: #588BA0;
+  background-color: #588BA0;
 }
 
 .placeholder-lightblue {
-background-color: #E5FFFD;
+  background-color: #E5FFFD;
 }
 
 .placeholder-darkblue {
-background-color: #67A6AA;
+  background-color: #67A6AA;
 }
 
 .placeholder-crimson {
-background-color: #D00000;
+  background-color: #D00000;
 }
 
-.page {
-font-size:x-large;
-color: red;
-font-weight: bold;
+/* Word Stuff */
+.center {
+  text-align: center;
 }
 
 .header {
-text-align: center;
-color: aqua;
+  text-align: center;
+  color: aqua;
 }
 
 .header-box {
-margin: 5px;
-height: 35px;
+  margin: 5px;
+  height: 35px;
 }
 
 .quote {
-font-weight: 500;
-font-size: larger;
+  font-family: "Playfair Display", serif;
+  font-size: x-large;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .quote-2 {
-font-weight: 500;
-font-size: larger;
+  font-family: "Playfair Display", serif;
+  font-size: x-large;
+  font-weight: 500;
+  font-style: normal;
 }
+
