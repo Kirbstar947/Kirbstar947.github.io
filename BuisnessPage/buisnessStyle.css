@@ -1,0 +1,114 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* Ensures a readable and clean font */
+    color: #333; /* Default text color for readability */
+    background-color: #f4f4f4; /* Soft background color */
+  }
+
+body { 
+  min-height: 100vh; 
+}
+
+
+/* formatting */
+.row {
+  margin: 0px;
+  height: 50px;
+  width: 1110px;
+}
+
+.fiftyH {
+    height: 50px;
+}
+
+
+/* images */
+.absolute {
+  position: absolute;
+}
+
+.top {
+  background-image: url("/images/Component 2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  padding: 0;
+  margin: 0;
+}
+
+/* Flex stuff */
+.tip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* Title */
+.titleBox {
+  margin: 5px;
+  height: 82px;
+  width: 665px;
+}
+
+/* Logo stuff */
+.altLogo {
+  height: 200px;
+  width: 200px;
+  border: 2px solid #94DA97;
+  box-shadow:4px 4px 4px #3a3a3a;
+}
+
+/* background colors */
+.placeholder-black {
+  background-color: #000000;
+}
+
+.placeholder-grey {
+  background-color: #d9d9d9c9;
+}
+
+.placeholder-grey2 {
+  background-color: #848484;
+}
+
+.placeholder-title {
+  background-color: #588BA0;
+}
+
+.placeholder-lightblue {
+  background-color: #E5FFFD;
+}
+
+.placeholder-darkblue {
+  background-color: #67A6AA;
+}
+
+.placeholder-crimson {
+  background-color: #D00000;
+}
+
+.placeholder-green {
+  background-color: #71db40;
+}
+
+.placeholder-treegreen {
+  background-color: #4F985F;
+}
+
+/* Word Stuff */
+.backButton {
+    font-size: x-large;
+}
+
+/* tap */
+.purple {
+  height: 358px;
+}
+
+#tags {
+  height: 100px;
+}
