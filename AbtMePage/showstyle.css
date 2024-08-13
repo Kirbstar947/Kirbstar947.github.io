@@ -1,0 +1,106 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* Ensures a readable and clean font */
+    color: #333; /* Default text color for readability */
+    background-color: #f4f4f4; /* Soft background color */
+  }
+
+body { 
+  min-height: 100vh; 
+}
+
+.header {
+    height: 50px;
+    width: 1110px;
+}
+
+.row {
+    margin: 0px;
+    height: 50px;
+    width: 1110px;
+  }
+
+.sticky {
+    position: sticky;
+}
+
+.fiftyH {
+    height: 50px;
+}
+
+.backButton {
+    font-size: x-large;
+}
+
+.background {
+  background-image: url("/images/ABTMEBACK.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  margin-left: -15px;
+  margin-right: 15px;
+}
+
+.about {
+    /* height: 861px; */
+    height:auto;
+  }
+
+  /* background colors */
+.placeholder-black {
+    background-color: #000000;
+    color:#f4f4f4;
+}
+  
+.placeholder-grey {
+    background-color: #d9d9d9c9;
+}
+  
+.placeholder-grey2 {
+    background-color: #848484;
+}
+  
+.placeholder-title {
+    background-color: #588BA0;
+}
+  
+.placeholder-lightblue {
+    background-color: #E5FFFD;
+}
+  
+.placeholder-darkblue {
+    background-color: #67A6AA;
+}
+  
+.placeholder-crimson {
+    background-color: #D00000;
+}
+  
+.placeholder-green {
+    background-color: #71db40;
+}
+  
+.placeholder-treegreen {
+    background-color: #4F985F;
+}
+  
+.placeholder-palletblue {
+    background-color: #75DDDD;
+}
+
+ol {
+    font-size: large;
+}
+
+ul {
+    font-size: medium;
+}
+
+.skillpic {
+    position: relative;
+    left: 50px;
+    top: 50px;
+}

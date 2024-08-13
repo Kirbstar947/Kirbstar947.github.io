@@ -35,8 +35,9 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: contain;
-  padding: 0;
-  margin: 0;
+  padding-right: 1.5em;
+  margin-left: -15px;
+  margin-right: 15px;
 }
 
 /* Flex stuff */
@@ -99,16 +100,74 @@ body {
   background-color: #4F985F;
 }
 
+.placeholder-palletblue {
+  background-color: #75DDDD;
+}
+
 /* Word Stuff */
 .backButton {
     font-size: x-large;
 }
 
+.designPage {
+  font-size: x-large;
+}
+
+.itemDesc {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: larger;
+  color : #000000;
+}
+
 /* tap */
 .purple {
-  height: 358px;
+  height: 458px;
+}
+
+.tap {
+  display: flex;
+  padding: 0;
+  flex-direction: row;
+  align-items: top;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.card {
+  width: 167px;
+  height: 229px;
+}
+
+.relative {
+  position: relative;
+}
+
+.card1 {
+  top: -15px;
+  left: -30px;
+}
+
+.card2 {
+  top: -2px;
+  left: -30px;
 }
 
 #tags {
   height: 100px;
+}
+
+.infoButton {
+  height: 35px;
+  width: 150px;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: large;
+  color : #ffffff;
+  background-color: #000000;
 }
