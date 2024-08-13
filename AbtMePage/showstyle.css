@@ -104,3 +104,21 @@ ul {
     left: 50px;
     top: 50px;
 }
+
+.taskpic {
+    position: relative;
+    left: 83px;
+    top: 30px;
+}
+
+.exppic {
+    position: relative;
+    left: 83px;
+    top: 55px;
+}
+
+.interestpic {
+    position: relative;
+    left: 83px;
+    top: 65px;
+}

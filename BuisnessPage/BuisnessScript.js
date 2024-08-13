@@ -1,10 +1,19 @@
-let priceButton = document.querySelector('.infoButton');
+let pricebutton = document.querySelector('.infoButton');
 
-function infoAlert() {
+function priceAlert() {
     alert("Under Construction! Sorry for the inconvenience.");
 }
 
-priceButton.addEventListener('click', infoAlert);
+pricebutton.addEventListener('click', priceAlert);
+
+let info = document.querySelector('.secret');
+
+function infoAlert() {
+    alert("The cards are made of metal to prevent bending and denting.\nThe cards also are water resistant to prevent marking.\nAnd who would want to mess up these sick cards?")
+}
+
+info.addEventListener('click', infoAlert);
 
 
-// alert("The cards are made of metal to prevent bending and denting.\nThe cards also are water resistant to prevent marking.\nAnd who would want to mess up these sick cards?")
+
+// alert("Under Construction! Sorry for the inconvenience.");
